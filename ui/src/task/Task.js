@@ -13,7 +13,7 @@ export default class Task extends React.Component {
         //     .then(data => {
         //         this.setState({tasks: data});
         //     })
-        axios.get("http://localhost:8080/task")
+        axios.get("/task")
             .then(resp => {
                 console.log(resp);
                 this.setState({tasks: resp.data});
