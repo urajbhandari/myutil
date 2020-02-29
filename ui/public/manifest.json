@@ -1,0 +1,8 @@
+{
+  "short_name": "Util App",
+  "name": "Util app for me",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
